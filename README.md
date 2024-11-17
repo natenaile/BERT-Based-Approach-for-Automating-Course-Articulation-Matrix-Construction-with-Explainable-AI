@@ -31,8 +31,7 @@ The system achieves the following performance metrics:
 - **Precision**: 98.67%
 - **Recall**: 98.66%
 - **F1-score**: 98.66%
-## Automated CAM for a randomly selected course from CBIT, India, showing one misclassified
-cell highlighted in orange.
+## Automated CAM for a randomly selected course from CBIT, India, showing one misclassified cell highlighted in orange.
 ![image7](https://github.com/user-attachments/assets/a36005e5-4249-4127-b641-80b5ee5ebfee)
 
 These results highlight the effectiveness of using BERT-based transfer learning models for the automated generation of CAMs, with a focus on high performance and model interpretability.
