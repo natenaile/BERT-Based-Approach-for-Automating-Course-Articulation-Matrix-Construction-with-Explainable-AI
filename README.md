@@ -21,7 +21,10 @@ This project automates the construction of a **Course Articulation Matrix (CAM)*
 3. **Explainable AI**:  
    **Local Interpretable Model-agnostic Explanations (LIME)** is applied to provide insights into the decision-making process, enhancing interpretability.
 
-4. **Performance Evaluation**:
+   ![image7](https://github.com/user-attachments/assets/34a673ba-8539-4a59-a677-0de7a87dd603)
+
+
+5. **Performance Evaluation**:
    Models are evaluated based on accuracy, precision, recall, and F1-score.
 
 ## Results
