@@ -1,4 +1,4 @@
-# Course Outcome (CO) and Program Outcome (PO)/Program-Specific Outcome (PSO) Alignment Project
+# BERT-Based Approach for Automating Course Articulation Matrix Construction with Explainable AI.
 
 ## Overview
 
