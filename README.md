@@ -66,7 +66,6 @@ To run this project in **Jupyter Notebook**, follow these steps:
 
 The notebook requires the following Python libraries:
 
-- **TensorFlow**
 - **PyTorch**
 - **Hugging Face Transformers**
 - **Scikit-learn**
