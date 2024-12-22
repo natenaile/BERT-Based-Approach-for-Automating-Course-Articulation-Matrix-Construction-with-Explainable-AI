@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project automates the construction of a **Course Articulation Matrix (CAM)**, which quantifies the alignment between Course Outcomes (COs) and Program Outcomes (POs) or Program-Specific Outcomes (PSOs). The alignment is crucial for ensuring curriculum coherence and assessing the effectiveness of educational programs. The project employs machine learning and transfer learning models to automate this process with high performance and interpretability.
+The construction of a Course Articulation Matrix (CAM), which quantifies the relationship between COs and POs/PSOs, typically involved assigning numerical values (0, 1, 2, 3) to represent different levels of alignment. In this study, we applied four transformer-based models from the BERT family: BERT Base, DistilBERT, ALBERT, and RoBERTa to assess CO-PO/PSO alignment through multiclass classification. We compared the performance of these models with traditional machine learning classifiers, such as: Decision Tree (DT), Random Forest Classifier (RF),Support Vector Machine (SVM),Logistic regression (LR),k-nearest neighbors (KNN) ,and Xgboost classifier (XGB).
 
 ### Objectives:
 - Develop a system to assess the alignment between COs and POs/PSOs.
@@ -11,12 +11,12 @@ This project automates the construction of a **Course Articulation Matrix (CAM)*
 
 ## Methodology
 
-1. **Data Collection & Preprocessing**:  
-   The project uses textual data representing CO and PO/PSO pairs, labeled with numerical values (0, 1, 2, 3) to represent the degree of alignment.
+1. **Data Collection**:  
+We prepared two high-quality, manually curated datasets containing COs, POs, and PSOs, along with their corresponding alignment scores, using courses from C. V. Raman Global University and Chaitanya Bharathi Institute of Technology.
 
 2. **Models Used**:
    - **Traditional Machine Learning**: Decision Tree, Random Forest, XGBoost.
-   - **Transfer Learning with BERT-based Models**: BERT Base, DistilBERT, ALBERT, and RoBERTa.
+   - **Transfer Learning with Transformer based (BERT-Family Models)**: BERT Base, DistilBERT, ALBERT, and RoBERTa.
 
 3. **Explainable AI**:  
    **Local Interpretable Model-agnostic Explanations (LIME)** is applied to provide insights into the decision-making process, enhancing interpretability.
@@ -26,15 +26,11 @@ This project automates the construction of a **Course Articulation Matrix (CAM)*
 
 ## Results
 
-The system achieves the following performance metrics:
-- **Accuracy**: 98.66%
-- **Precision**: 98.67%
-- **Recall**: 98.66%
-- **F1-score**: 98.66%
+The system achieved accuracy, precision, recall, and F1-score values of 98.66%, 98.67%, 98.66%, and 98.66%, respectively, for CGU Dataset, and 95.70%, 95.68%, 95.70%, and 95.69%, respectively, for CBIT Dataset.
 ## Automated CAM for a randomly selected course from CBIT, India, showing one misclassified cell highlighted in orange.
 ![image7](https://github.com/user-attachments/assets/a36005e5-4249-4127-b641-80b5ee5ebfee)
 
-These results highlight the effectiveness of using BERT-based transfer learning models for the automated generation of CAMs, with a focus on high performance and model interpretability.
+These results highlight the effectiveness of using BERT-based models for the automated generation of CAMs, with a focus on high performance and model interpretability.
 
 ## Key Features
 
